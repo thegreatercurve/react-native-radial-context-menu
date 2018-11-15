@@ -2,7 +2,10 @@
 
 An easy to use context menu component for React Native, inspired by [The Guardian's radial context menu](https://github.com/guardian/android-radialactionmenu) in their Android app.
 
+A live demo of the component can he found as an Expo Snack [here](https://snack.expo.io/@thegreatercurve/react-native-radial-context-menu-example), or in the `example` folder.
+
 ![Demo](./demo.gif)
+
 
 ## Installation 
 
@@ -11,6 +14,8 @@ npm i --save react-native-radial-context-menu
 ```
 
 ## Usage 
+
+A simple example is shown below.
 
 ```js
 import { withRadialActionMenu } from 'react-native-radial-context-menu'
@@ -30,6 +35,7 @@ const App = () => (
     />
 )
 ```
+For something more complex, have a look at the [Expo Snack](https://snack.expo.io/@thegreatercurve/react-native-radial-context-menu-example) demo.
 
 ### Props
 

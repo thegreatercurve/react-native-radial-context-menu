@@ -2,7 +2,6 @@
 
 build
 coverage
-example
 node_modules
 
 .DS_Store
