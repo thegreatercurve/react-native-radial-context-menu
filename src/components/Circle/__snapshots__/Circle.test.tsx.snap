@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle renders the component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "green",
+        "borderRadius": 999,
+        "position": "absolute",
+        "zIndex": 999,
+      },
+      Object {},
+    ]
+  }
+/>
+`;

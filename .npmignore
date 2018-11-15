@@ -1,0 +1,9 @@
+.jest
+.github
+
+coverage
+example
+node_modules
+src
+
+demo.gif
