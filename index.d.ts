@@ -4,20 +4,20 @@ export interface IButton {
 }
 
 interface withRadialActionMenuProps {
-  backgroundColor: string;
-  buttonDiameter: number;
+  backgroundColor?: string;
+  buttonDiameter?: number;
   buttons: IButton[];
-  menuDiameter: number;
-  openDelay: number;
-  spreadAngle: number;
-  spreadRadius: number;
-  vibrate: boolean;
-  vibrateDuration: number;
+  menuDiameter?: number;
+  openDelay?: number;
+  spreadAngle?: number;
+  spreadRadius?: number;
+  vibrate?: boolean;
+  vibrateDuration?: number;
   onClose?(value: IButton["value"]): void;
   onOpen?(): void;
 }
 
-export type withRadialActionMenu = <P extends IInjectedProps>(
+type withRadialActionMenu = <P extends withRadialActionMenuProps>(
   // tslint:disable-next-line:variable-name
   Component: React.ComponentType<P>
 ) => React.ComponentClass
