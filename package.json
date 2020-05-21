@@ -1,6 +1,6 @@
 {
   "name": "react-native-radial-context-menu",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A react-native implementation of a radial action menu",
   "scripts": {
     "build": "tsc",
