@@ -48,31 +48,5 @@
     "react": "*",
     "react-native": "*"
   },
-  "babel": {
-    "presets": [
-      "react-native"
-    ]
-  },
-  "jest": {
-    "preset": "react-native",
-    "globals": {
-      "ts-jest": {
-        "babelConfig": true
-      },
-      "window": {}
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "\\.(ts|tsx)$": "ts-jest"
-    },
-    "testRegex": ".test.(ts|tsx)$",
-    "testPathIgnorePatterns": [
-      "<rootDir>/node_modules/"
-    ],
-    "cacheDirectory": ".jest/cache"
-  }
+  "dependencies": {}
 }
