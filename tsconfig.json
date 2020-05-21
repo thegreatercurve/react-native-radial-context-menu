@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
     "skipLibCheck": true,
-    "target": "ESNEXT",
+		"target": "ESNEXT",
 		"module": "commonjs",
 		"sourceMap": true,
-    "outDir": "build",
+		"outDir": "build",
 		"jsx": "react-native",
-    "strict": true,
+		"strict": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
 		"forceConsistentCasingInFileNames": true,
-
   },
   "exclude": ["./node_modules"]
 }
