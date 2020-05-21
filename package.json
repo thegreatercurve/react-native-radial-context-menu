@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf ./build",
-    "format": "prettier --trailing-comma es5 --write \"./src/**/*.ts?(x)\"",
+    "format": "prettier --trailing-comma --write \"./src/**/*.ts?(x)\"",
     "lint": "tslint -c tslint.json \"./src/**/*.ts?(x)\"",
     "prepare": "npm run clean && npm run build",
     "start": "tsc -w",
