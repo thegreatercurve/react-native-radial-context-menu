@@ -74,14 +74,16 @@ export class Button extends React.PureComponent<IButtonProps, IButtonState> {
     const { x, y } = this.props;
 
     Animated.spring(this.state.pan, {
-      toValue: { x, y },
+			toValue: { x, y },
+			useNativeDriver: true
     }).start();
   };
 
   private scaleAnimation = (toValue: number): void => {
     Animated.spring(this.state.scale, {
       speed: 20,
-      toValue,
+			toValue,
+			useNativeDriver: true
     }).start();
   };
 }
