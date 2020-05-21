@@ -75,6 +75,7 @@ export class Button extends React.PureComponent<IButtonProps, IButtonState> {
 
     Animated.spring(this.state.pan, {
       toValue: { x, y },
+      useNativeDriver: false,
     }).start();
   };
 
@@ -82,6 +83,7 @@ export class Button extends React.PureComponent<IButtonProps, IButtonState> {
     Animated.spring(this.state.scale, {
       speed: 20,
       toValue,
+      useNativeDriver: false,
     }).start();
   };
 }

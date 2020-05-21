@@ -13,7 +13,11 @@ describe("Menu", () => {
         { component: () => <Text>2</Text>, value: "two" },
         { component: () => <Text>3</Text>, value: "three" },
       ],
-      coords: [{ x: 0, y: 0 }, { x: 0, y: 0 }, { x: 0, y: 0 }],
+      coords: [
+        { x: 0, y: 0 },
+        { x: 0, y: 0 },
+        { x: 0, y: 0 },
+      ],
       menuDiameter: 80,
       selected: 0,
       vibrate: false,

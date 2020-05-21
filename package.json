@@ -1,11 +1,11 @@
 {
   "name": "react-native-radial-context-menu",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A react-native implementation of a radial action menu",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf ./build",
-    "format": "prettier --trailing-comma es5 --write \"./src/**/*.ts?(x)\"",
+    "format": "prettier --trailing-comma --write \"./src/**/*.ts?(x)\"",
     "lint": "tslint -c tslint.json \"./src/**/*.ts?(x)\"",
     "prepare": "npm run clean && npm run build",
     "start": "tsc -w",
@@ -27,52 +27,26 @@
   "author": "John Flockton",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^23.3.8",
-    "@types/react": "^16.4.18",
-    "@types/react-native": "^0.57.7",
-    "@types/react-test-renderer": "^16.0.3",
-    "babel-jest": "^23.6.0",
+    "@types/jest": "^23.3.14",
+    "@types/react": "^16.9.35",
+    "@types/react-native": "^0.57.65",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.0.1",
     "babel-preset-react-native": "^4.0.1",
-    "jest": "^23.6.0",
-    "prettier": "^1.14.3",
-    "react": "^16.6.0",
-    "react-native": "^0.57.4",
-    "react-test-renderer": "^16.6.0",
-    "ts-jest": "^23.10.4",
-    "tslint": "^5.11.0",
-    "tslint-config-prettier": "^1.15.0",
+    "jest": "^26.0.1",
+    "prettier": "^1.19.1",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.0.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.1.4"
+    "typescript": "^3.9.3"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
-  "babel": {
-    "presets": [
-      "react-native"
-    ]
-  },
-  "jest": {
-    "preset": "react-native",
-    "globals": {
-      "ts-jest": {
-        "babelConfig": true
-      },
-      "window": {}
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "\\.(ts|tsx)$": "ts-jest"
-    },
-    "testRegex": ".test.(ts|tsx)$",
-    "testPathIgnorePatterns": [
-      "<rootDir>/node_modules/"
-    ],
-    "cacheDirectory": ".jest/cache"
-  }
+  "dependencies": {}
 }
