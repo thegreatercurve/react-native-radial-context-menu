@@ -1,6 +1,7 @@
 import * as React from "react";
 import { View } from "react-native";
-import { Button, Circle } from "..";
+import { Button } from "../Button";
+import { Circle } from "../Circle";
 import { styles } from "../../styles";
 import { getSizeStyles } from "../../utils";
 
