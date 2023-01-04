@@ -33,7 +33,7 @@
     "@types/react-test-renderer": "^16.0.3",
     "babel-jest": "^23.6.0",
     "babel-preset-react-native": "^4.0.1",
-    "jest": "^23.6.0",
+    "jest": "^29.3.1",
     "prettier": "^1.14.3",
     "react": "^16.6.0",
     "react-native": "^0.57.4",
